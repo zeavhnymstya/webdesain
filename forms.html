@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="widhth=device-width, inintial-schale=1,0"
+    <title>HTML - form</title>
+</head>
+<body>
+    <h1>New Accont registration</h1>
+
+    <form>
+        <table>
+            <tr>
+                <td><label for="firstname">first Name</label></td>
+                <td><input type="text" name="firstname" id="firstname"></td>
+                <td><label for="lastName">Last Name</label></td>
+                <td><input type="text" name="Lastname" id="Lastname"></td>
+            </tr>
+            <tr>
+                <td><label for="Dateofbirth">Date of Birth</label></td>
+                <td><input type="data" name="dateofbirth" id="ateofbirth"></td>
+                <td><label for="gender">Gender</label></td>
+                <td>
+                    <input type="radio" name="gender" id="gender" value="Male">Male
+                    <input type="radio" name="gender" id="gender" value="Female">Female
+                </td>
+            </tr>
+            <tr>
+                <td><label for="PhoneNumber">Phone Number</label></td>
+                <td><input type="number" name="PhoneNumber" id="PhoneNumber"></td>
+                <td><label for="Prodi">Prodi</label></td>
+                <td>
+                    <select name="prodi" id="prodi">
+                        <option value="IF">Inforrmatika</option>
+                        <option value="SI">Sistem Information</option>
+                        <option value="TI">Teknologi Informasi</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="emailAddress">EmailAddress</label></td>
+                <td><input type="email" name="emailAddress" id="EmailAddress"></td>
+                <td> <input type="checkbox" name="hobby" id="hobby2" value="Database">Database
+                <td><input type="password" name="password" id="password"></td>
+            </tr>
+            <tr>
+                <td colspan="4">
+                    <input type="checkbox" name="hobby" id="hobby2" value="Database">Database
+                    <input type="checkbox" name="hobby" id="hobby1" value="Programming">Programming
+                    <input type="checkbox" name="hobby" id="hobby2" value="Database">Database
+                    <input type="checkbox" name="hobby" id="hobby3" value="Networking">Networking
+                    <input type="checkbox" name="hobby" id="hobby2" value="Security">Security
+                    <input type="checkbox" name="hobby" id="hobby2" value="Multimedia">Multimedia
+                </td>
+            </tr>
+            <tr>
+                <td colspan="4">
+                    <label for="uploadID">Upload ID Card</label>
+                    <input type="file" name="hobby" id="uploadID">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="4">
+                    <label for="comment">Comment</label>
+                    <textarea name="comment" id="comment" cols="50" rows="10"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="4">
+                    <input type="reset" value="Clear Form">
+                    <input type="submit" value="Submit">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
